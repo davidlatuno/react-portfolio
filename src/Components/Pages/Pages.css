@@ -45,7 +45,7 @@
     text-decoration: none;
   }
 
-  .text a:first-child {
+  .textWithDeployed a:first-child {
       margin-right: 5px;
       border-right: 1px solid white;
       padding-right: 5px;
@@ -55,6 +55,10 @@
     color: none;
 }
 
-.col-md-4 {
+.col-md-6, .col-md-4 {
     padding: 0;
+}
+
+.backend {
+    margin-top: 50px;
 }
