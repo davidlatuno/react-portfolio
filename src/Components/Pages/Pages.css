@@ -4,7 +4,7 @@
 
 .picContainer {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   
   .image {
@@ -31,8 +31,6 @@
   }
   
   .text {
-    color: white;
-    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,3 +38,19 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .text a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .text a:first-child {
+      margin-right: 5px;
+      border-right: 1px solid white;
+      padding-right: 5px;
+  }
+
+.text:visited {
+    color: none;
+}

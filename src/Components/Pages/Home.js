@@ -12,7 +12,7 @@ class Home extends Component {
                 <Jumbotron phrase="Front to Back" />
                 <div className="row">
                     <div className="col-md-4">
-                        <Picture source={require("./images/Psychic-game.png")} alt="psychic-game"/>
+                        <Picture source={require("./images/Psychic-game.png")} alt="psychic-game" github="https://github.com/davidlatuno/Psychic-Game" deployed="https://davidlatuno.github.io/Psychic-Game/"/>
                     </div>
                     <div className="col-md-4">
                     </div>
