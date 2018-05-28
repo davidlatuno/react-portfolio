@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from "../Navbar";
 import Jumbotron from "../Jumbotron";
-import psychic from "./images/Psychic-game.png";
+import Picture from "../Picture"
 import "./Pages.css";
 
 class Home extends Component {
@@ -12,12 +12,7 @@ class Home extends Component {
                 <Jumbotron phrase="Front to Back" />
                 <div className="row">
                     <div className="col-md-4">
-                        <div class="picContainer">
-                            <img src={psychic} alt="psychic-game" class="image" />
-                            <div class="overlay">
-                                <div class="text">Hello World</div>
-                            </div>
-                        </div>
+                        <Picture source={require("./images/Psychic-game.png")} alt="psychic-game"/>
                     </div>
                     <div className="col-md-4">
                     </div>
