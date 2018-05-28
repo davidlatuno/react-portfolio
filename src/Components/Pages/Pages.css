@@ -54,3 +54,7 @@
 .text:visited {
     color: none;
 }
+
+.col-md-4 {
+    padding: 0;
+}
