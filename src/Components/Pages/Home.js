@@ -11,15 +11,39 @@ class Home extends Component {
                 <Navbar />
                 <Jumbotron phrase="Front to Back" />
                 <h3>Full Stack Sites</h3>
-                <hr/>
-                <h3>Front End Sites</h3>
-                <hr/>
+                <hr />
+                <div className="row">
+                    <div className="col-md-6">
+                        <Picture source={require("./images/eventsms.png")} alt="eventsms" github="https://github.com/davidlatuno/event-project" deployed="https://event-sms.herokuapp.com/" />
+                    </div>
+                    <div className="col-md-6">
+                        <Picture source={require("./images/whistlr.png")} alt="whistlr" github="https://github.com/kabdullah9/Whistlr" deployed="https://whistlr.herokuapp.com/" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6">
+                        <Picture source={require("./images/newsScraper.png")} alt="scraper" github="https://github.com/davidlatuno/news-scraper" deployed="https://dl-news-scraper.herokuapp.com/" />
+                    </div>
+                    <div className="col-md-6">
+                        <Picture source={require("./images/nytreact.png")} alt="nytreact" github="https://github.com/davidlatuno/nytreact" deployed="https://nyt-react-dl.herokuapp.com/" />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-6">
+                        <Picture source={require("./images/friendFinder.png")} alt="friendfinder" github="https://github.com/davidlatuno/FriendFinder" deployed="https://friend-finder-dl.herokuapp.com/" />
+                    </div>
+                    <div className="col-md-6">
+                        <Picture source={require("./images/burger.png")} alt="burger" github="https://github.com/davidlatuno/burger" deployed="https://burger-dl.herokuapp.com/" />
+                    </div>
+                </div>
+                <h3 className="frontend">Front End Sites</h3>
+                <hr />
                 <div className="row">
                     <div className="col-md-6">
                         <Picture source={require("./images/Giftastic.png")} alt="giftastic" github="https://github.com/davidlatuno/Giftastic" deployed="https://davidlatuno.github.io/Giftastic/" />
                     </div>
                     <div className="col-md-6">
-                        <Picture source={require("./images/Crystal-Game.png")} alt="crystal-game" github="https://github.com/davidlatuno/Crystal-Game" deployed="https://davidlatuno.github.io/Crystal-Game/" />
+                        <Picture source={require("./images/FaceYourself.png")} alt="faceyourself" github="https://github.com/davidlatuno/FaceYourself" deployed="https://davidlatuno.github.io/FaceYourself/" />
                     </div>
                 </div>
                 <div className="row">
@@ -35,19 +59,22 @@ class Home extends Component {
                         <Picture source={require("./images/Train-Schedule.png")} alt="train-schedule" github="https://github.com/davidlatuno/Train-Schedule" deployed="https://davidlatuno.github.io/Train-Schedule/" />
                     </div>
                     <div className="col-md-6">
-                        <Picture source={require("./images/FaceYourself.png")} alt="faceyourself" github="https://github.com/davidlatuno/FaceYourself" deployed="https://davidlatuno.github.io/FaceYourself/" />
+                        <Picture source={require("./images/Crystal-Game.png")} alt="crystal-game" github="https://github.com/davidlatuno/Crystal-Game" deployed="https://davidlatuno.github.io/Crystal-Game/" />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                         <Picture source={require("./images/Psychic-game.png")} alt="psychic-game" github="https://github.com/davidlatuno/Psychic-Game" deployed="https://davidlatuno.github.io/Psychic-Game/" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                         <Picture source={require("./images/Hangman-game.png")} alt="hangman-game" github="https://github.com/davidlatuno/Hangman-Game" deployed="https://davidlatuno.github.io/Hangman-Game/" />
+                    </div>
+                    <div className="col-md-4">
+                        <Picture source={require("./images/memory-game.png")} alt="memory-game" github="https://github.com/davidlatuno/memory-game" deployed="https://davidlatuno.github.io/memory-game//" />
                     </div>
                 </div>
                 <h3 className="backend">Back End Applications</h3>
-                <hr/>
+                <hr />
                 <div className="row">
                     <div className="col-md-4">
                         <Picture source={require("./images/LIRI.png")} alt="liri" github="https://github.com/davidlatuno/liri-node-app-MK2" />
