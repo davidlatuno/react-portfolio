@@ -87,6 +87,24 @@
     width: 80%;
 }
 
+.card {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    width: 20%;
+    border: none;
+    float: left;
+    margin-left: 4.5%;
+}
+
+.card .iconImage {
+    margin-left: 34%;
+    width: 30%;
+}
+
+.card .card-body {
+    margin-top: -40px;
+}
+
 @media screen and (min-width: 1130px) {
     .text a {
         font-size: 40px;
