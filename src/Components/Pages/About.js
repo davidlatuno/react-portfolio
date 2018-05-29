@@ -26,10 +26,8 @@ class App extends Component {
                 <h3>My Story</h3>
                 <hr />
                 <div className="row">
-                    <div className="col-md-5">
+                    <div className="col">
                         <img className="profilePic" src={ProfilePic} alt="profilepic" />
-                    </div>
-                    <div className="col-md-7">
                         <h4 className="bio">I am a Full Stack Web Developer who completed the UCSD full-time Coding Bootcamp in May 2018. My previous career as a Filter Technician at Ballast Point Brewing Company revealed my passion for mechanical processes, problem solving everyday, and creating quality products through collaborative teamwork. <br /><br />
                             Similar to my start with Ballast Point, I began my coding career from the ground up. Thanks to the bootcamp I have grown my front and back end coding skills and am now helping my classmates in seeing the big picture of projects, developing our skills to the next level, and encouraging them to stay positive.</h4>
                     </div>
