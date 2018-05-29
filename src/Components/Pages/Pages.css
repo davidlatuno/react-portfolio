@@ -23,7 +23,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #28537d;
   }
   
   .picContainer:hover .overlay {
@@ -64,8 +64,26 @@
     margin-top: 90px;
 }
 
+.profilePic {
+    width: 100%;
+}
+
+.bio {
+    font-family: 'EB Garamond', serif;
+}
+
+.iconImage {
+    width: 100%;
+}
+
 @media screen and (min-width: 1130px) {
     .text a {
         font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bio {
+        padding: 25% 15% 0 15%;
     }
 }

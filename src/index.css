@@ -19,7 +19,7 @@ html, body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.jumbotronMain, h3 {
+.jumbotronMain, .jumbotron p, h3 {
     font-family: 'EB Garamond', serif;
 }
 

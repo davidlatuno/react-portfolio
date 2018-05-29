@@ -9,7 +9,7 @@ class Home extends Component {
         return (
             <div>
                 <Navbar />
-                <Jumbotron phrase="Front to Back." />
+                <Jumbotron phrase="From Front to Back." subtitle="A list of full stack, front end, and back end projects I worked on"/>
                 <h3>Full Stack Sites</h3>
                 <hr />
                 <div className="row">

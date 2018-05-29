@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <div>
             <Navbar />
-            <Jumbotron phrase="You to Me." />
+            <Jumbotron phrase="From You to Me." subtitle="Avenues to get in contact with me"/>
             </div>
     )
     }
