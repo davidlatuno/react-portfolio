@@ -7,7 +7,7 @@ const Picture = props =>
         <div className="overlay">
             <div className={props.deployed ? "text textWithDeployed" : "text"}>
             <a href={props.github} target="_blank">Github</a>
-            {props.deployed ? <a href={props.deployed} target="_blank">Deployed Site</a> : ""}
+            {props.deployed ? <a href={props.deployed} target="_blank">Deployed</a> : ""}
             
             </div>
         </div>

@@ -40,6 +40,7 @@
   }
 
   .text a {
+    font-family: 'Quicksand', sans-serif;
     color: white;
     font-size: 22px;
     text-decoration: none;
@@ -60,11 +61,11 @@
 }
 
 .backend, .frontend {
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 @media screen and (min-width: 1130px) {
     .text a {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
