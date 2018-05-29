@@ -56,16 +56,17 @@
     color: none;
 }
 
-.col-md-6, .col-md-4 {
+.col-md-6, .col-md-4, .col-sm-6 {
     padding: 0;
 }
 
-.backend, .frontend {
+.backend, .frontend, .skills {
     margin-top: 90px;
 }
 
 .profilePic {
-    width: 100%;
+    margin-left: 20%;
+    width: 70%;
 }
 
 .bio {
@@ -73,7 +74,14 @@
 }
 
 .iconImage {
-    width: 100%;
+    width: 20%;
+    margin-left: 10%;
+    margin-bottom: 60px;
+    float: left;
+}
+
+.smallerPic {
+    width: 80%;
 }
 
 @media screen and (min-width: 1130px) {
@@ -84,6 +92,20 @@
 
 @media screen and (min-width: 992px) {
     .bio {
-        padding: 25% 15% 0 15%;
+        padding: 20% 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profilePic {
+        margin-left: 0%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .iconImage {
+        width: 22%;
+        margin-left: 8%;
+        margin-bottom: 60px;
+        float: left;
     }
 }
