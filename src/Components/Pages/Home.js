@@ -10,6 +10,8 @@ class Home extends Component {
             <div>
                 <Navbar />
                 <Jumbotron phrase="Front to Back" />
+                <h3>Full Stack Sites</h3>
+                <hr/>
                 <h3>Front End Sites</h3>
                 <hr/>
                 <div className="row">

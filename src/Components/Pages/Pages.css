@@ -41,7 +41,7 @@
 
   .text a {
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
   }
 
@@ -61,4 +61,10 @@
 
 .backend {
     margin-top: 50px;
+}
+
+@media screen and (min-width: 1130px) {
+    .text a {
+        font-size: 30px;
+    }
 }
