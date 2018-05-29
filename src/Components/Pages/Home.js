@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from "../Navbar";
 import Jumbotron from "../Jumbotron";
-import Picture from "../Picture"
+import Picture from "../Picture";
+import Footer from "../Footer";
 import "./Pages.css";
 
 class Home extends Component {
@@ -86,6 +87,7 @@ class Home extends Component {
                         <Picture source={require("./images/bamazon.png")} alt="bamazon" github="https://github.com/davidlatuno/bamazon" />
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }

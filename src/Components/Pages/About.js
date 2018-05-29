@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from "../Navbar";
 import Jumbotron from "../Jumbotron";
+import Footer from "../Footer";
 import "./Pages.css";
 import ProfilePic from "./images/ProfilePic.jpg"
 import IconImage from "../IconImage";
@@ -66,6 +67,7 @@ class App extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         )
     }
