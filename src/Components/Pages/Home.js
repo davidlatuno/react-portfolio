@@ -41,7 +41,7 @@ class Home extends Component {
                 <hr />
                 <div className="row">
                     <div className="col-md-6">
-                        <Picture source={require("./images/Giftastic.png")} alt="giftastic" github="https://github.com/davidlatuno/Giftastic" deployed="https://davidlatuno.github.io/Giftastic/" />
+                        <Picture source={require("./images/reactPortfolio.png")} alt="portfolio" github="https://github.com/davidlatuno/react-portfolio" deployed="https://davidlatuno-portfolio.herokuapp.com/" />
                     </div>
                     <div className="col-md-6">
                         <Picture source={require("./images/FaceYourself.png")} alt="faceyourself" github="https://github.com/davidlatuno/FaceYourself" deployed="https://davidlatuno.github.io/FaceYourself/" />
@@ -52,15 +52,18 @@ class Home extends Component {
                         <Picture source={require("./images/RPG-Game.png")} alt="RPG-game" github="https://github.com/davidlatuno/RPG-Game" deployed="https://davidlatuno.github.io/RPG-Game/" />
                     </div>
                     <div className="col-md-6">
-                        <Picture source={require("./images/Trivia-Game.png")} alt="Trivia-game" github="https://github.com/davidlatuno/Trivia-Game-MK2" deployed="https://davidlatuno.github.io/Trivia-Game-MK2/" />
+                        <Picture source={require("./images/Giftastic.png")} alt="giftastic" github="https://github.com/davidlatuno/Giftastic" deployed="https://davidlatuno.github.io/Giftastic/" />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                         <Picture source={require("./images/Train-Schedule.png")} alt="train-schedule" github="https://github.com/davidlatuno/Train-Schedule" deployed="https://davidlatuno.github.io/Train-Schedule/" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                         <Picture source={require("./images/Crystal-Game.png")} alt="crystal-game" github="https://github.com/davidlatuno/Crystal-Game" deployed="https://davidlatuno.github.io/Crystal-Game/" />
+                    </div>
+                    <div className="col-md-4">
+                        <Picture source={require("./images/Trivia-Game.png")} alt="Trivia-game" github="https://github.com/davidlatuno/Trivia-Game-MK2" deployed="https://davidlatuno.github.io/Trivia-Game-MK2/" />
                     </div>
                 </div>
                 <div className="row">
