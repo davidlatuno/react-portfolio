@@ -15,7 +15,7 @@ class Home extends Component {
                 <hr />
                 <div className="row">
                     <div className="col-md-6">
-                        <Picture source={require("./images/Eventsms.png")} alt="eventsms" github="https://github.com/davidlatuno/event-project" deployed="https://event-sms.herokuapp.com/" />
+                        <Picture source={require("./images/EventSMS.png")} alt="eventsms" github="https://github.com/davidlatuno/event-project" deployed="https://event-sms.herokuapp.com/" />
                     </div>
                     <div className="col-md-6">
                         <Picture source={require("./images/whistlr.png")} alt="whistlr" github="https://github.com/kabdullah9/Whistlr" deployed="https://whistlr.herokuapp.com/" />
