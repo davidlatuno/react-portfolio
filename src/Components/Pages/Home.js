@@ -78,7 +78,7 @@ class Home extends Component {
                 <hr />
                 <div className="row">
                     <div className="col-md-4">
-                        <Picture source={require("./images/LIRI.png")} alt="liri" github="https://github.com/davidlatuno/liri-node-app-MK2" />
+                        <Picture source={require("./images/liri.png")} alt="liri" github="https://github.com/davidlatuno/liri-node-app-MK2" />
                     </div>
                     <div className="col-md-4">
                         <Picture source={require("./images/backend-hangman.png")} alt="hangman" github="https://github.com/davidlatuno/Constructor-Word-Guess" />
