@@ -92,6 +92,7 @@ body {
 }
 
 .bio {
+    padding: 10% 10% 0 10%;
     width: 60%;
     float: left;
     font-family: 'EB Garamond', serif;
@@ -137,9 +138,31 @@ body {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 1080px) {
+    .bio {
+        padding: 5% 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .profilePic {
+        width: 30%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
     .bio {
         padding: 10% 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .profilePic {
+        width: 35%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+    .bio {
+        padding: 5% 10% 0 10%;
     }
 }
 
@@ -150,14 +173,37 @@ body {
         margin-bottom: 20px;
     }
     .bio {
+        padding-left: 0px;
+        padding-right: 0px;
         width: 100%;
         float: left;
         font-family: 'EB Garamond', serif;
+    
     }
     .iconImage {
         width: 22%;
         margin-left: 8%;
         margin-bottom: 60px;
         float: left;
+    }
+
+    .card {
+        font-family: 'EB Garamond', serif;
+        font-size: 20px;
+        width: 40%;
+        border: none;
+        float: left;
+        margin-left: 4.5%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .card {
+        font-family: 'EB Garamond', serif;
+        font-size: 20px;
+        width: 60%;
+        border: none;
+        float: left;
+        margin-left: 18%;
     }
 }
