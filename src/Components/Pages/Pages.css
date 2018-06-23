@@ -8,6 +8,7 @@ body {
 }
 .footer {
     position: absolute;
+    left: 0;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -115,11 +116,11 @@ body {
     width: 20%;
     border: none;
     float: left;
-    margin-left: 4.5%;
+    margin-left: 0%;
 }
 
 .card .iconImage {
-    margin-left: 34%;
+    margin-left: 35%;
     width: 30%;
 }
 
@@ -204,6 +205,7 @@ body {
         width: 60%;
         border: none;
         float: left;
-        margin-left: 23.5%;
+        margin-left: 20%;
+        margin-bottom: 30px;
     }
 }
