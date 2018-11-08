@@ -9,11 +9,11 @@ const Home = () => (
   <div>
     <Navbar />
     <Jumbotron phrase="From Front to Back." subtitle="A list of full stack, front end, and back end projects I worked on" />
-    <h3>Full Stack Sites</h3>
+    <h3>Full Stack Applications</h3>
     <hr />
     <div className="row">
       <div className="col-md-6">
-        <Picture source={require('./images/EventSMS.png')} alt="eventsms" github="https://github.com/davidlatuno/event-project" deployed="https://event-sms.herokuapp.com/" />
+        <Picture source={require('./images/sdbeer.png')} alt="sdbeer" deployed="https://www.sdbeer.com/" />
       </div>
       <div className="col-md-6">
         <Picture source={require('./images/whistlr.png')} alt="whistlr" github="https://github.com/kabdullah9/Whistlr" deployed="https://whistlr.herokuapp.com/" />
@@ -21,21 +21,24 @@ const Home = () => (
     </div>
     <div className="row">
       <div className="col-md-6">
-        <Picture source={require('./images/newsScraper.png')} alt="scraper" github="https://github.com/davidlatuno/news-scraper" deployed="https://dl-news-scraper.herokuapp.com/" />
+        <Picture source={require('./images/EventSMS.png')} alt="eventsms" github="https://github.com/davidlatuno/event-project" deployed="https://event-sms.herokuapp.com/" />
       </div>
       <div className="col-md-6">
         <Picture source={require('./images/nytreact.png')} alt="nytreact" github="https://github.com/davidlatuno/nytreact" deployed="https://nyt-react-dl.herokuapp.com/" />
       </div>
     </div>
     <div className="row">
-      <div className="col-md-6">
+      <div className="col-md-4">
         <Picture source={require('./images/friendFinder.png')} alt="friendfinder" github="https://github.com/davidlatuno/FriendFinder" deployed="https://friend-finder-dl.herokuapp.com/" />
       </div>
-      <div className="col-md-6">
+      <div className="col-md-4">
         <Picture source={require('./images/burger.png')} alt="burger" github="https://github.com/davidlatuno/burger" deployed="https://burger-dl.herokuapp.com/" />
       </div>
+      <div className="col-md-4">
+        <Picture source={require('./images/newsScraper.png')} alt="scraper" github="https://github.com/davidlatuno/news-scraper" deployed="https://dl-news-scraper.herokuapp.com/" />
+      </div>
     </div>
-    <h3 className="frontend">Front End Sites</h3>
+    <h3 className="frontend">Front End Websites</h3>
     <hr />
     <div className="row">
       <div className="col-md-6">
@@ -75,7 +78,7 @@ const Home = () => (
         <Picture source={require('./images/memory-game.png')} alt="memory-game" github="https://github.com/davidlatuno/memory-game" deployed="https://davidlatuno.github.io/memory-game//" />
       </div>
     </div>
-    <h3 className="backend">Back End Applications</h3>
+    <h3 className="backend">CLI Applications</h3>
     <hr />
     <div className="row">
       <div className="col-md-4">
