@@ -30,24 +30,16 @@ const App = () => (
         <img className="profilePic profilePic1" src={ProfilePic} alt="profilepic" />
       </div>
       <div className="col-md-6 aboutSections">
-        <h4 className="bio bio1">I am a Full Stack Web Developer who completed the UCSD full-time Coding Bootcamp in May 2018. My previous career as a Filter Technician at Ballast Point Brewing Company revealed my passion for mechanical processes, problem solving, and creating quality products through collaborative teamwork.
+        <h4 className="bio bio1">
+          Full-Stack fanatic who converts coffee into code.
+          My previous career as a Filter Technician at Ballast
+          Point Brewing Company revealed my passion for mechanical processes,
+          problem solving, and creating quality products through collaborative teamwork.
+          I specialize in HTML, CSS, JavaScript, and React on the front-end as well as Node
+          and MySQL/Mongo on the back-end to create beautiful and secure applications.
+          My biggest priority is developing clear, high-quality code while cultivating
+          a fun and encouraging workplace culture.
         </h4>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-md-6 aboutSections">
-        <h4 className="bio bio2">
-            Similar to my start with Ballast Point, I began my coding career from the ground up.
-            Thanks to the Bootcamp, I have grown my front (HTML, CSS, JavaScript, React.js)
-            and back-end (Node.js, MySQL, Mongo) coding skills and am now helping my team members
-            to see the big picture of projects, develop our skills to the next level, and cultivate
-            a positive work environment. I fell in love with the complexity and specificity of
-            programming and I am excited to see new technology emerge while meeting passionate
-            people along the way.
-        </h4>
-      </div>
-      <div className="col-md-6 aboutSections">
-        <img className="profilePic profilePic2" src={ProfilePic2} alt="profilepic2" />
       </div>
     </div>
     <h3 className="skills">My Skills</h3>
