@@ -4,7 +4,6 @@ import Jumbotron from '../Jumbotron';
 import Footer from '../Footer';
 import './Pages.css';
 import ProfilePic from './images/DSC_6082.jpg';
-import ProfilePic2 from './images/DSC_6084.jpg';
 import IconImage from '../IconImage';
 import html from './icons/html.png';
 import bootstrap from './icons/bootstrap.png';
