@@ -26,7 +26,7 @@ const Home = () => (
         <Picture source={require('./images/reactPortfolio.png')} alt="portfolio" github="https://github.com/davidlatuno/react-portfolio" deployed="https://davidlatuno-portfolio.herokuapp.com/" />
       </div>
       <div className="col-md-6">
-        <Picture source={require('./images/faceYourself.png')} alt="faceyourself" github="https://github.com/davidlatuno/FaceYourself" deployed="https://davidlatuno.github.io/FaceYourself/" />
+        <Picture source={require('./images/FaceYourself.png')} alt="faceyourself" github="https://github.com/davidlatuno/FaceYourself" deployed="https://davidlatuno.github.io/FaceYourself/" />
       </div>
     </div>
     <h3 className="backend">CLI Applications</h3>
