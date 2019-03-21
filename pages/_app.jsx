@@ -12,7 +12,7 @@ class MainApp extends App {
           <meta property="og:title" content="David Latuno Portfolio" />
           <meta property="og:description" content="My previous career as a Filter Technician at Ballast Point Brewing Company revealed my passion for mechanical processes, problem solving, and creating quality products through collaborative teamwork. I specialize in HTML, CSS, JavaScript, and React on the front-end as well as Node and MySQL/Mongo on the back-end to create beautiful and secure applications. My biggest priority is developing clear, high-quality code while cultivating a fun and encouraging workplace culture." />
           <meta name="description" content="My previous career as a Filter Technician at Ballast Point Brewing Company revealed my passion for mechanical processes, problem solving, and creating quality products through collaborative teamwork. I specialize in HTML, CSS, JavaScript, and React on the front-end as well as Node and MySQL/Mongo on the back-end to create beautiful and secure applications. My biggest priority is developing clear, high-quality code while cultivating a fun and encouraging workplace culture." />
-          <meta property="og:image" content="" />
+          <meta property="og:image" content="https://raw.githubusercontent.com/davidlatuno/react-portfolio/master/static/pics/DSC_6082.jpg" />
           <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Quicksand" rel="stylesheet" />
           <link
             rel="stylesheet"
