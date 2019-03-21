@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "express": "^4.16.4",
     "next": "^8.0.3",
     "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react-dom": "^16.4.0",
+    "react-favicon": "0.0.14"
   },
   "scripts": {
     "test": "mocha",
@@ -26,6 +28,7 @@
       "react/jsx-wrap-multilines": 0,
       "react/jsx-one-expression-per-line": 0,
       "react/no-array-index-key": 0,
+      "react/react-in-jsx-scope": 0,
       "react/no-unescaped-entities": 0,
       "import/no-named-as-default": 0,
       "import/no-named-as-default-member": 0,
