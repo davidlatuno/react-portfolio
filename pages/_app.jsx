@@ -33,7 +33,9 @@ class MainApp extends App {
           />
         </Head>
         <Favicon url="../static/pics/letterD.ico" />
-        <Component {...pageProps} />
+        <div className="container mainContainer">
+          <Component {...pageProps} />
+        </div>
       </Container>
     );
   }
