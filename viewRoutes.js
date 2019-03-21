@@ -13,4 +13,19 @@ module.exports = (server, app) => {
   server.get('/about', (req, res) => {
     app.render(req, res, '/about');
   });
+
+  // Fixes error where contact page isnt rendered with extra forward slash
+  server.get('/contact/', (req, res) => {
+    app.render(req, res, '/contact');
+  });
+
+  // Renders contact page no matter what is after
+  server.get('/contact/:page', (req, res) => {
+    app.render(req, res, '/contact');
+  });
+
+  // Fixes error where contact page isnt rendered with extra forward slash
+  server.get('/contact', (req, res) => {
+    app.render(req, res, '/contact');
+  });
 };
