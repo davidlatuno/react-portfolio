@@ -1,6 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
-import IconImage from '../IconImage';
+import IconImage from './iconImage';
 
 const Card = ({ source, alt, text }) => (
   <div className="card">

@@ -1,3 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.mainContainer {
+  max-width: 100%;
+  margin: 0 0 0 0;
+}
+
+.navbar {
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.jumbotronMain,
+.jumbotron p,
+h3 {
+  font-family: "EB Garamond", serif;
+}
+
+.jumbotron {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -18,11 +61,12 @@ body {
 }
 
 .footer .text-muted {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   padding-top: 4.5%;
 }
 
-.jumbotron, .navbar {
+.jumbotron,
+.navbar {
   background: transparent !important;
 }
 
@@ -46,7 +90,7 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #28537d;
 }
 
@@ -64,7 +108,7 @@ body {
 }
 
 .text a {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: white;
   font-size: 22px;
   text-decoration: none;
@@ -80,11 +124,15 @@ body {
   color: none;
 }
 
-.col-md-6, .col-md-4, .col-sm-6 {
+.col-md-6,
+.col-md-4,
+.col-sm-6 {
   padding: 0;
 }
 
-.backend, .frontend, .skills {
+.backend,
+.frontend,
+.skills {
   margin-top: 90px;
 }
 
@@ -100,17 +148,19 @@ body {
     float: left; */
 }
 
-.bio1, .profilePic2 {
+.bio1,
+.profilePic2 {
   padding-right: 10%;
 }
 
-.bio2, .profilePic1 {
+.bio2,
+.profilePic1 {
   padding-left: 10%;
 }
 
 .bio {
   max-width: 75%;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 .iconImage {
@@ -125,7 +175,7 @@ body {
 }
 
 .card {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   font-size: 20px;
   width: 20%;
   border: none;
@@ -159,14 +209,15 @@ body {
     /* padding: 0; */
   }
 
-  ;
-
   .bio {
     width: 100%;
     padding: 0;
   }
 
-  .bio1, .bio2, .profilePic1, .profilePic2 {
+  .bio1,
+  .bio2,
+  .profilePic1,
+  .profilePic2 {
     padding: 0;
   }
 
@@ -192,7 +243,7 @@ body {
   }
 
   .card {
-    font-family: 'EB Garamond', serif;
+    font-family: "EB Garamond", serif;
     font-size: 20px;
     width: 40%;
     border: none;
@@ -203,7 +254,7 @@ body {
 
 @media screen and (max-width: 555px) {
   .card {
-    font-family: 'EB Garamond', serif;
+    font-family: "EB Garamond", serif;
     font-size: 20px;
     width: 60%;
     border: none;
