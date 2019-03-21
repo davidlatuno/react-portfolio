@@ -39,7 +39,7 @@ const App = () => (
             <IconImage source="../static/pics/css.png" alt="css" />
           </div>
           <div className="col-sm-6">
-            <IconImage source="../static/pics/github.png" alt="github" />
+            <IconImage source="../static/pics/githubIcon.png" alt="github" />
             <IconImage source="../static/pics/handlebars.png" alt="handlebars" />
             <IconImage source="../static/pics/javascript.png" alt="javascript" />
           </div>
