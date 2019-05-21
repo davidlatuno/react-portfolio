@@ -2,7 +2,7 @@ const Nightmare = require('nightmare');
 const chai = require('chai');
 const { expect } = chai;
 const {
-  describe, it, beforeEach, afterEach,
+  describe, it, beforeEach,
 } = require('mocha');
 
 describe('Nightmare Test', () => {
