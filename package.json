@@ -71,6 +71,6 @@
     "eslint-plugin-react": "^7.12.4",
     "mocha": "^6.1.4",
     "nightmare": "^3.0.1",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^3.0.1"
   }
 }
