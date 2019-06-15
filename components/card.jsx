@@ -13,7 +13,10 @@ const Card = ({ source, alt, text }) => (
 Card.propTypes = {
   source: PropTypes.string,
   alt: PropTypes.string,
-  text: PropTypes.string,
+  text: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.shape({}),
+  ]),
 };
 
 Card.defaultProps = {
