@@ -32,11 +32,14 @@ const Home = () => (
     <h3 className="backend">CLI Applications</h3>
     <hr />
     <div className="row">
-      <div className="col-md-6">
+      <div className="col-md-4">
         <Picture source="../static/pics/bash.png" alt="liri" github="https://github.com/davidlatuno/bash" />
       </div>
-      <div className="col-md-6">
-        <Picture source="../static/pics/backend-hangman.png" alt="hangman" github="https://github.com/davidlatuno/Constructor-Word-Guess" />
+      <div className="col-md-4">
+        <Picture source="../static/pics/csharp-copy.png" alt="hangman" github="https://github.com/davidlatuno/c-sharp-trilogy-script" />
+      </div>
+      <div className="col-md-4">
+        <Picture source="../static/pics/csharp-delete.png" alt="hangman" github="https://github.com/davidlatuno/c-sharp-trilogy-script2" />
       </div>
     </div>
     <Footer />
