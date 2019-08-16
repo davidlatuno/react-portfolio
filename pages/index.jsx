@@ -32,14 +32,11 @@ const Home = () => (
     <h3 className="backend">CLI Applications</h3>
     <hr />
     <div className="row">
-      <div className="col-md-4">
-        <Picture source="../static/pics/liri.png" alt="liri" github="https://github.com/davidlatuno/liri-node-app-MK2" />
+      <div className="col-md-6">
+        <Picture source="../static/pics/bash.png" alt="liri" github="https://github.com/davidlatuno/bash" />
       </div>
-      <div className="col-md-4">
+      <div className="col-md-6">
         <Picture source="../static/pics/backend-hangman.png" alt="hangman" github="https://github.com/davidlatuno/Constructor-Word-Guess" />
-      </div>
-      <div className="col-md-4">
-        <Picture source="../static/pics/bamazon.png" alt="bamazon" github="https://github.com/davidlatuno/bamazon" />
       </div>
     </div>
     <Footer />
