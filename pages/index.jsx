@@ -33,13 +33,13 @@ const Home = () => (
     <hr />
     <div className="row">
       <div className="col-md-4">
-        <Picture source="../static/pics/liri.png" alt="liri" github="https://github.com/davidlatuno/liri-node-app-MK2" />
+        <Picture source="../static/pics/bash.png" alt="liri" github="https://github.com/davidlatuno/bash" />
       </div>
       <div className="col-md-4">
-        <Picture source="../static/pics/backend-hangman.png" alt="hangman" github="https://github.com/davidlatuno/Constructor-Word-Guess" />
+        <Picture source="../static/pics/csharp-copy.png" alt="hangman" github="https://github.com/davidlatuno/c-sharp-trilogy-script" />
       </div>
       <div className="col-md-4">
-        <Picture source="../static/pics/bamazon.png" alt="bamazon" github="https://github.com/davidlatuno/bamazon" />
+        <Picture source="../static/pics/csharp-delete.png" alt="hangman" github="https://github.com/davidlatuno/c-sharp-trilogy-script2" />
       </div>
     </div>
     <Footer />
