@@ -4,7 +4,7 @@ Personal Portfolio made with React.js
 
 Icons used from flaticon.com
 
-Url Link: https://davidlatuno-portfolio.herokuapp.com/
+Url Link: https://next-portfolio-eight-tan.vercel.app/
 
 or click below
 
